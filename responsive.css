@@ -1,0 +1,57 @@
+@media only screen and (max-width: 768px){
+    .title{
+        text-align: center;
+        margin: auto;
+        font-size: 1.2em;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0 15px;
+    }
+    .input-group-parent{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .input-group{
+        display: flex;
+        flex-direction: column;
+    }
+    .input-group label{
+        padding: 10px ;
+        margin: auto;
+        color:E29578;
+        font-size:1.2em;
+    }
+    .input-group input{
+        width: 80%;
+        height: 30px;
+        outline:none;
+        border:none;
+        margin: auto;
+    }
+    #find{
+        height: 50px;
+        width: 200px;
+        border:none;
+        outline:none;
+        color:rgb(65, 59, 59) ;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:1em;
+    }
+    .submit{
+        display: flex;
+        justify-content: center;
+        margin: 40px 0;
+    }
+    .copyright{
+        text-align: center;
+        margin-top: 60px;
+    }
+    .copyright p{
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .answer p{
+        padding: 20px 15px;
+    }
+    
+}
